@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: wheat;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  justify-content: center;
+  background-color: #0b0f1e;
+  padding: 20px;
+}
+.display {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  border: 3px grey solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  gap: 8px;
+}
+.ansplace {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 40px;
+  padding: 0 10px;
+  height: 60px;
+  background-color: #0f172a;
+  border-radius: 10px;
+}
+.allrows {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 5px;
+}
+.row {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  gap: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-grow: 1;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  max-height: 100%;
+  max-width: 100%;
+
+  background-color: #0f172a;
+  font-size: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #070b11;
+}
+
+
+
